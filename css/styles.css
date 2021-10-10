@@ -1,0 +1,137 @@
+/* *** global variable *** */
+:root{
+    --first-color-white: #ffffff;
+    --second-color-different-black: #212121;
+    --third-color-different-grey: #757575;
+    --fourth-color: #2F303A;
+    --fifth-color: rgba(255, 255, 255, 0.6);
+    --logo-color-white: #ffffff;
+    --logo-color-black: #000000;
+    --logo-color-light-blue: #2196F3;
+    --active: #2196F3;
+    --add-order-color: #2196F3;
+    --first-font: 'Roboto', 'Verdana', 'Tahoma', sans-serif; 
+    --second-font: 'Raleway', 'Verdana', 'Tahoma', sans-serif;
+}
+/* *** common syle*** */
+body{
+    font-family: var(--first-font);
+    color: var(--first-color-white);
+    font-style: normal;
+    font-weight: normal;
+    background: var(--main-bg);
+    letter-spacing: 0.03em;
+}
+.hide{
+    visibility: hidden;
+}
+.list-no-mark-style{
+    list-style: none;
+}
+.link-no-undeline-style{
+    text-decoration: none;
+    color: var(--second-color-different-black);
+}
+.active-link:hover,
+.active-link:focus{
+    color: var(--active);
+}
+.btn{
+    cursor: pointer;
+}
+.active-btn:hover,
+.active-btn:focus{
+    background: var(--active);
+    color: var(--first-color-white);
+    border-radius: 4px;
+    
+}
+.card-title{
+    color: var(--second-color-different-black);
+    font-size: 16px;
+    line-height: calc(19 / 16);
+}
+.card-text{
+    color: var(--third-color-different-grey);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: calc(19 / 16);
+}
+
+/* *** header *** */
+.web-stud-main-content{
+    background: var(--fourth-color);
+}
+.web-stud-header-logo-txt,
+.web-stud-footer-logo-txt{
+    color: var(--logo-color-light-blue);
+    font-family: var(--second-font);
+    font-weight: 900;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+}
+.web-stud-header-logo-txt span{
+    color: var(--second-color-different-black);
+}
+.web-stud-contacts-mail,
+.web-stud-contacts-tel{
+    color: var(--third-color-different-grey);
+}
+
+/* *** main *** */
+/* *** main-index *** */
+/* section web-stud-main-content */
+.web-stud-main-content-title{
+    font-weight: 900;
+}
+.web-stud-main-content-btn{
+background-color: var(--add-order-color);
+}
+/* section web-stud-main-content-peculiarity */
+.web-stud-main-content-peculiarity-list-item-title{
+    font-weight: 900;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    color: var(--second-color-different-black);
+    text-transform: uppercase;
+}
+.web-stud-main-content-peculiarity-list-item-text{
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    color: var(--third-color-different-grey);
+}
+/* web-stud-main-content-what-to-do */
+/* web-stud-main-content-teams */
+.web-stud-main-content-teams-title,
+.web-stud-main-content-what-to-do-title{
+    font-weight: 900;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    color: var(--second-color-different-black);
+}
+
+/* *** main-porfolio *** */
+.web-stud-main-portfolio-filters-btn{
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+/* *** footer *** */
+.web-stud-footer{
+    background: var(--fourth-color);
+}
+.web-stud-footer-logo-txt span{
+    color: var(--first-color-white);
+}
+.web-stud-footer-contacts{
+    font-style: normal;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+}
+.web-stud-footer-contacts-address{
+    color: var(--first-color-white);
+}
+.web-stud-footer-contacts-email,
+.web-stud-footer-contacts-tel{
+    color: var(--fifth-color);
+}
